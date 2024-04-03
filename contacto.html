@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+
+<body style="background-color: white;">
+    
+    <div class="barra-azul">
+
+    </div>
+
+    <nav class="navegacion">
+
+        <img style="width: 150px;" src="img/M5-logo-azul.svg" alt="">
+
+        <a href="index.html"> Home </a>
+
+        <a href="contacto.html"> contacto</a>
+
+        <a href="nosotros.html">nosotros</a>
+
+    </nav>
+
+
+    <main class="main  ">
+
+        <div>
+            <h1 class="h1-formulario">
+                ¿queres que nos contactemos con vos ?
+            </h1>
+
+            <P class="p-formulario">
+                dejanos tu consulta:
+            </P>
+
+
+        </div>
+
+        <form action="codigo.php" method="post">
+
+            <label class="texto-form" for="nombre"> nombre completo </label>
+            <input class="texto-form" id="nombre" type="text" placeholder="nombre completo">
+
+
+            <label class="texto-form" for="email"> email  </label>
+            <input id="email" type="email" placeholder="email">
+
+
+
+            <label class="texto-form" for="comentario">comentario  </label>
+
+            <textarea class="texto-form" name="" id="comentario" cols="30" rows="10"></textarea>
+
+
+            <!--botones-->
+
+            <div class="botones">
+
+
+                <input class="reseteo" type="reset">
+    
+                <button class="envio" onclick="alert('fumulario enviado')"> enviar </button>
+    
+            </div>
+
+
+
+
+        </form>
+
+       
+
+
+    </main>
+
+    <footer>
+        <p class="texto-footer"> derechos de la pagina Web <a class="texto-footer"
+                href="mailto:juangonzalez9298@gmail.com"> Contacto</a> </p>
+
+    </footer>
+
+
+</body>
+
+</html>
